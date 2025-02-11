@@ -6,7 +6,8 @@
 
 <style>
     footer {
-        margin-top: 3rem;
+        /* border-top: 1px solid red; */
+        margin-top: 6rem;
         background-color: var(--color-grey-dark-03);
         padding: 4rem 0 6rem;
         font-size: var(--fs-sm);

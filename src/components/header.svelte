@@ -1,5 +1,5 @@
 <header>
-    <div class="logo">Studio 4</div>
+    <a href="/"><div class="logo">Studio 4</div></a>
 
     <nav>
         <a href="/services">Services</a>
@@ -19,6 +19,9 @@
         /* width: 100%; */
         z-index: 999;
         position: relative;
+    }
+    header a {
+        cursor: pointer;
     }
     .logo {
         /* position: absolute; */

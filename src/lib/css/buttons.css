@@ -1,0 +1,14 @@
+button.cta {
+    background-color: var(--color-grey-dark-03-rgb);
+    padding: 1.25rem 2.5rem;
+    border: none;
+    /* border-radius: 0.75rem; */
+    font-size: var(--fs-lg);
+    color: white;
+    letter-spacing: 0.25px;
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+}
+button.cta:hover {
+    background-color: var(--color-grey-dark-03-rgb);
+}

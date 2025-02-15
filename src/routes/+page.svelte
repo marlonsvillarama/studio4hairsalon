@@ -1,11 +1,11 @@
 <script></script>
 
-<div class="hero">
+<div class="hero" id="cover">
     <div class="mask"></div>
     <div class="wrapper content">
         <h1>Where artistry meets precision</h1>
         <p>Indulge in the ultimate salon experience at <strong>Studio 4</strong> - where every moment is crafted just for you, every style is designed for your unique beauty, and you leave beaming with every visit.</p>
-        <button class="cta">Book an appointment now</button>
+        <button class="cta">BOOK NOW</button>
     </div>
 </div>
 
@@ -43,12 +43,32 @@
     </div>
 </section>
 
-<section id="blurb">john profile</section>
+<div id="john">
+    <div class="wrapper content">
+        <p>Led by <span class="emp">John Fernandez</span>, a seasoned professional with over 20 years of international experience, we bring world-class expertise and creativity to every client.</p>
+        <p>John’s journey spans the vibrant salons of Dubai, the dynamic multi-franchise networks of the Philippines, and the innovative hair industry of New Zealand.</p>
+        <p>This extensive background combines diverse techniques, global trends, and a passion for excellence to ensure you receive a look tailored specifically to your unique style.</p>
+        <button class="cta">BOOK NOW</button>
+    </div>
+</div>
 
-<section id="reviews" class="wrapper">reviews/testimonials</section>
+<section id="reviews" class="wrapper">
+    <div class="review">
+        <p>"It was my first time in here and I experienced excellent service from John.  I love supporting local and believe me, he is one of the best hairstylist out here! Highly recommended! Got the perfect cut I wanted!"</p>
+        <span class="reviewer">Josephine</span>
+    </div>
+    <div class="review">
+        <p>"Highly recommended hairdresser! His expertise and attention to detail are impressive. I walked out with a look that exceeded my expectations..."</p>
+        <span class="reviewer">Elizah May</span>
+    </div>
+    <div class="review">
+        <p>"One of the best hairdressers in Palmy. I would highly commend him for being approachable and friendly. Got the haircut and hair color I wanted. Thank you kuya John! Will definitely come back."</p>
+        <span class="reviewer">Janella</span>
+    </div>
+</section>
 
 <style>
-    .hero {
+    /* .hero {
         background-image: url('/images/action-01.webp');
         background-size: cover;
         background-position: 0 -5rem;
@@ -72,7 +92,7 @@
         top: 0;
         left: 0;
         right: 0;
-    }
+    } */
     .content {
         /* background-color: antiquewhite; */
         font-size: var(--fs-lg);
@@ -105,18 +125,40 @@
         opacity: 0.75;
         margin-bottom: 2.5rem;
     }
-    button.cta {
-        background-color: var(--color-red-flag-lite);
-        padding: 1.5rem 2.5rem;
-        border: none;
-        border-radius: 0.75rem;
-        font-size: var(--fs-xl);
-        color: white;
-        letter-spacing: 0.25px;
-        transition: all 150ms ease-in-out;
+    #john {
+        background-image: url('/images/john-white.webp');
+        /* height: 35rem; */
+        background-size: cover;
+        background-position: 0 -2rem;
+        z-index: -10;
+        width: 100%;
+        /* margin-top: -10rem; */
+        /* margin-bottom: 5rem; */
+        position: relative;
+        /* display: flex;
+        align-items: center; */
+        padding: 4rem 0;
+        margin-bottom: 5rem;
     }
-    button.cta:hover {
-        background-color: var(--color-red-flag);
-        cursor: pointer;
+    #john p {
+        /* border: 1px solid red; */
+        font-family: var(--font-sans);
+        /* width: 80%; */
+        max-width: 40rem;
+        justify-content: flex-start;
+        letter-spacing: 0.25px;
+        font-weight: 300;
+        font-size: var(--fs-md);
+        letter-spacing: 0.75px;
+        line-height: var(--fs-2xl);
+        /* opacity: 0.6; */
+        color: rgba(255, 255, 255, 0.75);
+    }
+    #john p:not(:last-child) {
+        margin-bottom: 2.5rem;
+    }
+    span.emp {
+        color: white;
+        font-weight: 700;
     }
 </style>

@@ -1,0 +1,48 @@
+.hero {
+    background-size: cover;
+    z-index: -10;
+    width: 100%;
+    margin-top: -6rem;
+    margin-bottom: 5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.hero p {
+    letter-spacing: 0.75px;
+}
+.mask {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+    width: 100%;
+    margin-top: 0rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#cover {
+    background-image: url('/images/action-01.webp');
+    height: 50rem;
+    /* background-position: 0 -5rem; */
+}
+#cover .mask {
+    height: 50rem;
+}
+#services {
+    background-image: url('/images/action-01.webp');
+    background-position: 0 0;
+    height: 35rem;
+}
+#services .mask {
+    height: 35rem;
+}
+#contact {
+    background-image: url('/images/action-01.webp');
+    background-position: 0 0;
+    height: 35rem;
+}
+#contact .mask {
+    height: 35rem;
+}

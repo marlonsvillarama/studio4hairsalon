@@ -29,6 +29,7 @@
         /* left: 5rem; */
         font-family: var(--font-logo);
         font-size: 6rem;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
         /* border: 1px solid green; */
         line-height: 6rem;
         height: 5rem;

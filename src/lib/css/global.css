@@ -30,3 +30,7 @@ button {
     max-width: 80rem;
 }
 /* proof of address */
+.accent {
+    color: goldenrod;
+    /* color: var(--color-accent); */
+}

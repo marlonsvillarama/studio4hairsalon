@@ -19,9 +19,9 @@ section:not(.full) > h1 {
     margin-bottom: 2rem;
 }
 
-#services {
+/* #services {
     display: grid;
-}
+} */
 section > h1 {
     /* color: var(--color-grey-dark-03); */
     display: flex;

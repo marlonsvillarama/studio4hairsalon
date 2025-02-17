@@ -1,7 +1,7 @@
 <script></script>
 
 <div class="hero" id="contact">
-    <div class="mask"></div>
+    <!-- <div class="mask"></div> -->
     <div class="wrapper content">
         <h1>Contact Us</h1>
         <!-- <p>Indulge in the ultimate salon experience at <strong>Studio 4</strong> - where every moment is crafted just for you, every style is designed for your unique beauty, and you leave beaming with every visit.</p> -->
@@ -9,39 +9,6 @@
     </div>
 </div>
 
-<section id="services" class="wrapper">
-    <h1>Our Services</h1>
-    <div class="tileset">
-        <a href="/services#haircut">
-            <div class="tile">
-                <h1>Haircut</h1>
-                <div id="haircut" class="bg-img"></div>
-                <div class="mask"></div>
-            </div>
-        </a>
-        <a href="/services#colours">
-            <div class="tile">
-                <h1>Colours</h1>
-                <div id="colours" class="bg-img"></div>
-                <div class="mask"></div>
-            </div>
-        </a>
-        <a href="/services#treatment">
-            <div class="tile">
-                <h1>Treatment</h1>
-                <div id="treatment" class="bg-img"></div>
-                <div class="mask"></div>
-            </div>
-        </a>
-        <a href="/services#other">
-            <div class="tile">
-                <h1>Other Services</h1>
-                <div id="other" class="bg-img"></div>
-                <div class="mask"></div>
-            </div>
-        </a>
-    </div>
-</section>
 
 
 <section id="blurb">john profile</section>

@@ -1,25 +1,53 @@
 .tile {
-    width: 24rem;
-    height: 20rem;
+    /* width: 20rem; */
     border: none;
+    margin: 0 auto;
     /* background-color: aliceblue; */
     /* border: 1px solid green; */
     /* text-align: center; */
     display: flex;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: center;
     position: relative;
 }
-.tile h1 {
-    font-family: var(--font-serif);
-    font-size: var(--fs-3xl);
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    position: absolute;
-    color: white;
-    z-index: 100;
+.bg-img {
+    /* filter: blur(0.25rem); */
+    background-size: cover;
+    height: 18rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    /* z-index: -10; */
 }
-.tile > .mask {
+#haircut {
+    background-image: url('/images/haircut.webp');
+    background-position: -2rem 1;
+}
+#colours {
+    background-image: url('/images/colours.webp');
+    background-position: -7rem 0;
+}
+#treatment {
+    background-image: url('/images/treatment.webp');
+    background-position: -3rem 0;
+    /* background-size: cover; */
+}
+#other {
+    background-image: url('/images/other.webp');
+    background-position: -3rem 0;
+}
+.tile h2 {
+    font-family: var(--font-sans);
+    font-size: var(--fs-lg);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    /* position: absolute; */
+    /* color: var(--color-grey-dark-03-rgb); */
+    z-index: 100;
+    margin-bottom: 0.5rem;
+}
+/* .tile > .mask {
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 100%;
@@ -28,23 +56,14 @@
 }
 .tile>.mask:hover {
     background-color: rgba(0, 0, 0, 0.4);
+} */
+.tile .sep {
+    width: 50%;
+    border: 1px solid var(--color-grey-dark-03-rgb-lite);
+    margin-bottom: 1rem;
 }
-#haircut {
-    background-image: url('/images/haircut.webp');
-    background-size: cover;
-}
-#colours {
-    background-image: url('/images/colours.webp');
-}
-#treatment {
-    background-image: url('/images/treatment.webp');
-}
-#other {
-    background-image: url('/images/other.webp');
-}
-.bg-img {
-    /* filter: blur(0.25rem); */
-    height: 100%;
-    width: 100%;
-    z-index: -10;
+.tile p {
+    width: 80%;
+    font-size: var(--fs-sm);
+    color: rgba(0, 0, 0, 0.7);
 }

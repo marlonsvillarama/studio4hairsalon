@@ -1,6 +1,6 @@
 .hero {
     background-size: cover;
-    z-index: -10;
+    /* z-index: -10; */
     width: 100%;
     margin-top: -6rem;
     margin-bottom: 5rem;
@@ -24,20 +24,21 @@
 }
 #cover {
     background-image: url('/images/action-01.webp');
-    height: 50rem;
+    padding: 20rem 0 25rem;
+    /* height: 70rem; */
     /* background-position: 0 -5rem; */
 }
 #cover .mask {
     height: 50rem;
 }
-#services {
+/* #services {
     background-image: url('/images/action-01.webp');
     background-position: 0 0;
     height: 35rem;
 }
 #services .mask {
     height: 35rem;
-}
+} */
 #contact {
     background-image: url('/images/action-01.webp');
     background-position: 0 0;

@@ -1,4 +1,7 @@
-<script></script>
+<script>
+    import Contact from "../components/contact.svelte";
+    import Map from "../components/map.svelte";
+</script>
 
 <div class="hero" id="cover">
     <!-- <div class="mask"></div> -->
@@ -52,27 +55,35 @@
     <!-- </div> -->
 </section>
 
-<div id="john">
+<section id="john">
     <div class="wrapper content">
-        <p>Led by <span class="emp">John Fernandez</span>, a seasoned professional with over 20 years of international experience, we bring world-class expertise and creativity to every client.</p>
+        <p>Led by <span class="emp name">John Fernandez</span>, a seasoned professional with over 20 years of international experience, we bring world-class expertise and creativity to every client.</p>
         <p>John’s journey spans the vibrant salons of Dubai, the dynamic multi-franchise networks of the Philippines, and the innovative hair industry of New Zealand.</p>
         <p>This extensive background combines diverse techniques, global trends, and a passion for excellence to ensure you receive a look tailored specifically to your unique style.</p>
         <a href="/book" class="btn cta">BOOK NOW</a>
     </div>
-</div>
+</section>
 
-<section id="reviews" class="wrapper">
-    <div class="review">
-        <p>"It was my first time in here and I experienced excellent service from John.  I love supporting local and believe me, he is one of the best hairstylist out here! Highly recommended! Got the perfect cut I wanted!"</p>
-        <span class="reviewer">Josephine</span>
-    </div>
-    <div class="review">
-        <p>"Highly recommended hairdresser! His expertise and attention to detail are impressive. I walked out with a look that exceeded my expectations..."</p>
-        <span class="reviewer">Elizah May</span>
-    </div>
-    <div class="review">
-        <p>"One of the best hairdressers in Palmy. I would highly commend him for being approachable and friendly. Got the haircut and hair color I wanted. Thank you kuya John! Will definitely come back."</p>
-        <span class="reviewer">Janella</span>
+<!-- CONTACT -->
+<Contact />
+
+<!-- MAP -->
+ <Map />
+
+<section id="reviews">
+    <div class="wrapper">
+        <div class="review">
+            <p>"It was my first time in here and I experienced excellent service from John.  I love supporting local and believe me, he is one of the best hairstylist out here! Highly recommended! Got the perfect cut I wanted!"</p>
+            <span class="reviewer">Josephine</span>
+        </div>
+        <div class="review">
+            <p>"Highly recommended hairdresser! His expertise and attention to detail are impressive. I walked out with a look that exceeded my expectations..."</p>
+            <span class="reviewer">Elizah May</span>
+        </div>
+        <div class="review">
+            <p>"One of the best hairdressers in Palmy. I would highly commend him for being approachable and friendly. Got the haircut and hair color I wanted. Thank you kuya John! Will definitely come back."</p>
+            <span class="reviewer">Janella</span>
+        </div>
     </div>
 </section>
 
@@ -134,6 +145,9 @@
         opacity: 0.75;
         margin-bottom: 4rem;
     }
+    #services {
+        margin: 8rem auto;
+    }
     #john {
         background-image: url('/images/john-white.webp');
         /* height: 35rem; */
@@ -146,8 +160,8 @@
         position: relative;
         /* display: flex;
         align-items: center; */
-        padding: 4rem 0;
-        margin-bottom: 5rem;
+        padding: 4rem 0 6rem;
+        /* margin-bottom: 5rem; */
     }
     #john p {
         box-sizing: border-box;
@@ -169,7 +183,9 @@
         margin-bottom: 3.5rem;
     } */
     span.emp {
-        color: white;
         font-weight: 700;
+    }
+    span.name {
+        color: white;
     }
 </style>

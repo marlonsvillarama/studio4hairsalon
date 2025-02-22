@@ -57,7 +57,7 @@
 
 <section id="john">
     <div class="wrapper content">
-        <p>Led by <span class="emp name">John Fernandez</span>, a seasoned professional with over 20 years of international experience, we bring world-class expertise and creativity to every client.</p>
+        <p>Led by <span class="emp accent">John Fernandez</span>, a seasoned professional with over 20 years of international experience, we bring world-class expertise and creativity to every client.</p>
         <p>John’s journey spans the vibrant salons of Dubai, the dynamic multi-franchise networks of the Philippines, and the innovative hair industry of New Zealand.</p>
         <p>This extensive background combines diverse techniques, global trends, and a passion for excellence to ensure you receive a look tailored specifically to your unique style.</p>
         <a href="/book" class="btn cta">BOOK NOW</a>
@@ -150,7 +150,7 @@
         letter-spacing: 1px;
         line-height: var(--fs-2xl);
         /* opacity: 0.6; */
-        color: rgba(255, 255, 255, 0.75);
+        color: rgba(255, 255, 255, 1);
         /* padding-bottom: 2.5rem; */
     }
     /* #john .content > p:last-child {

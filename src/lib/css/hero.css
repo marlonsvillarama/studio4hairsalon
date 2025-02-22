@@ -16,8 +16,9 @@
 }
 .hero p {
     letter-spacing: 0.75px;
+    color: rgba(255, 255, 255, 1);
 }
-.mask {
+/* .mask {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 0;
     width: 100%;
@@ -26,7 +27,7 @@
     top: 0;
     left: 0;
     right: 0;
-}
+} */
 #cover {
     background-image: url('/images/action-01-tundra02.webp');
     padding: 20rem 0 25rem;
@@ -37,14 +38,14 @@
     background-image: url('/images/action-01-tundra02.webp');
     padding: 13rem 0 10rem;
 }
-#reviews {
+/* #reviews {
     background-image: url('/images/action-01-tundra02.webp');
     padding: 13rem 0 10rem;
-}
-#contact {
+} */
+/* #contact {
     background-image: url('/images/action-01-tundra02.webp');
     padding: 13rem 0 10rem;
-}
+} */
 /* #services {
     background-image: url('/images/action-01.webp');
     background-position: 0 0;

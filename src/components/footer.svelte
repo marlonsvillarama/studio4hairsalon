@@ -3,7 +3,10 @@
         <div class="footer-logo">
             <a href="/"><div class="logo">Studio 4</div></a>
             <span>Where <span class="accent">artistry</span> meets precision</span><br/><br/>
-            <span class="">&copy; Copyright 2025</span>
+            <span>&copy; Copyright 2025</span><br/><br/>
+            <span>7 George Street, Palmerston North</span><br/>
+            <span>Phone: (06) 353 5678</span><br/>
+            <span>Mobile: (022) 188 5240</span><br/>
         </div>
         <nav>
             <a href="/services" class="link">Browse our services</a>
@@ -22,7 +25,7 @@
         /* border-top: 1px solid red; */
         /* margin-top: 6rem; */
         background-color: var(--color-grey-dark-03);
-        padding: 4rem 0 2rem;
+        padding: 4rem 0 6rem;
         font-size: var(--fs-sm);
         font-weight: 500;
         color: white;

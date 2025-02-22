@@ -9,8 +9,6 @@
     </div>
 </div>
 
-
-
 <section id="blurb">john profile</section>
 
 <section id="reviews" class="wrapper">
@@ -39,7 +37,7 @@
         /* align-self: center; */
     }
     .content h1 {
-        font-family: var(--font-serif);
+        /* font-family: var(--font-serif); */
         color: white;
         font-weight: 400;
         font-size: var(--fs-3xl);
@@ -51,7 +49,7 @@
     }
     .content p {
         /* border: 1px solid red; */
-        font-family: var(--font-sans);
+        /* font-family: var(--font-sans); */
         /* width: 80%; */
         max-width: 60rem;
         justify-content: flex-start;

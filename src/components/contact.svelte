@@ -2,7 +2,7 @@
 
 <section id="contact">
     <div class="wrapper">
-        <h1>Open today - 9am to 5pm</h1>
+        <!-- <h1>Open today - 9am to 5pm</h1> -->
         <div id="contact-info">
             <div class="info">
                 <h2>(06) 353 5678</h2>

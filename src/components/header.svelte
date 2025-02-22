@@ -3,7 +3,9 @@
 
     <nav>
         <a href="/services">Services</a>
-        <a href="/contact">Contact Us</a>
+        <a href="/gallery">Gallery</a>
+        <a href="/reviews">Reviews</a>
+        <a href="/contact">Contact</a>
     </nav>
 </header>
 
@@ -34,42 +36,24 @@
         cursor: pointer;
         /* border: 1px solid red; */
     }
-    .logo {
-        /* position: absolute; */
-        /* top: 0; */
-        /* left: 5rem; */
-        font-family: var(--font-logo);
-        font-size: 6rem;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
-        /* border: 1px solid green; */
-        line-height: 6rem;
-        height: 5rem;
-        /* width: 15rem; */
-        color: white;
-        transition: all 150ms ease-in-out;
-    }
-    .logo:hover {
-        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
-        transform: scale(1.02);
-        /* color: goldenrod; */
-        /* box-shadow: var(--box-shadow); */
-    }
     /* nav {
         border: 1px solid red;
     } */
     nav a {
         color: white;
-        margin-left: 0.5rem;
+        margin-left: 0.25rem;
         padding: 1rem 2rem;
         /* border: 1px solid green; */
         transition: all 150ms ease-in-out;
         font-size: var(--fs-sm);
         font-weight: 300;
+        letter-spacing: 0.75px;
     }
     nav a:hover {
         cursor: pointer;
         background-color: rgba(0, 0, 0, 0.3);
         border-radius: 0.5rem;
+        color: var(--color-accent);
         /* font-size: var(--fs-md); */
         /* font-weight: 500; */
         /* text-decoration: underline; */

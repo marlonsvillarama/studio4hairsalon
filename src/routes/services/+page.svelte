@@ -1,162 +1,70 @@
-<script></script>
+<script>
+    import Price from "../../components/price.svelte";
+</script>
 
 <div class="hero" id="services">
-    <div class="mask"></div>
+    <!-- <div class="mask"></div> -->
     <div class="wrapper content">
-        <h1>Services</h1>
-        <button class="cta">BOOK NOW</button>
+        <h1>Our Services</h1>
+        <!-- <p>Indulge in the ultimate salon experience at <strong>Studio 4</strong> - where every moment is crafted just for you, every style is designed for your unique beauty, and you leave beaming with every visit.</p> -->
+        <!-- <a href="/book" class="btn cta">BOOK NOW</a> -->
+        <!-- <a href="/services" class="btn">Our Services</a> -->
     </div>
 </div>
 
-<section id="services" class="wrapper">
-    <h1>Our Services</h1>
-    <div class="tileset">
-        <a href="/services#haircut">
-            <div class="tile">
-                <h1>Haircut</h1>
-                <div id="haircut" class="bg-img"></div>
-                <div class="mask"></div>
-            </div>
-        </a>
-        <a href="/services#colours">
-            <div class="tile">
-                <h1>Colours</h1>
-                <div id="colours" class="bg-img"></div>
-                <div class="mask"></div>
-            </div>
-        </a>
-        <a href="/services#treatment">
-            <div class="tile">
-                <h1>Treatment</h1>
-                <div id="treatment" class="bg-img"></div>
-                <div class="mask"></div>
-            </div>
-        </a>
-        <a href="/services#other">
-            <div class="tile">
-                <h1>Other Services</h1>
-                <div id="other" class="bg-img"></div>
-                <div class="mask"></div>
-            </div>
-        </a>
+<section id="service-grid" class="wrapper content">
+    <div class="service">
+        <h1>Haircut</h1>
+        <Price label="Under 16 years old" price="25" />
+        <Price label="Men/Women (Gold Card Holder)" price="30" />
+        <Price label="Men's Haircut" price="35" />
+        <Price label="Women's Haircut with blowdry" price="40" />
+        <Price label="Hair wash (additional)" price="10" />
+        <Price label="Hair iron (additional)" price="30" />
     </div>
-</section>
-
-<div id="john">
-    <div class="wrapper content">
-        <p>Led by <span class="emp">John Fernandez</span>, a seasoned professional with over 20 years of international experience, we bring world-class expertise and creativity to every client.</p>
-        <p>John’s journey spans the vibrant salons of Dubai, the dynamic multi-franchise networks of the Philippines, and the innovative hair industry of New Zealand.</p>
-        <p>This extensive background combines diverse techniques, global trends, and a passion for excellence to ensure you receive a look tailored specifically to your unique style.</p>
+    <div class="service">
+        <h1>Colours</h1>
+        <Price label="Root Colour" price="110" />
+        <Price label="Hair Colour" price="110" />
+        <Price label="With full head foils" price="220" range="true" />
+        <Price label="With Keratin treatment" price="270" range="true" />
+        <Price label="Root Colour" price="110" />
     </div>
-</div>
-
-<section id="reviews" class="wrapper">
-    <div class="review">
-        <p>"It was my first time in here and I experienced excellent service from John.  I love supporting local and believe me, he is one of the best hairstylist out here! Highly recommended! Got the perfect cut I wanted!"</p>
-        <span class="reviewer">Josephine</span>
+    <div class="service">
+        <h1>Treatment</h1>
+        <Price label="Hair Spa" price="60" />
+        <Price label="Keratin" price="170" />
+        <Price label="No yellow Keratin" price="180" />
+        <Price label="Kerabond" price="250" />
+        <Price label="Permanent straightening" price="250" range="true" />
     </div>
-    <div class="review">
-        <p>"Highly recommended hairdresser! His expertise and attention to detail are impressive. I walked out with a look that exceeded my expectations..."</p>
-        <span class="reviewer">Elizah May</span>
-    </div>
-    <div class="review">
-        <p>"One of the best hairdressers in Palmy. I would highly commend him for being approachable and friendly. Got the haircut and hair color I wanted. Thank you kuya John! Will definitely come back."</p>
-        <span class="reviewer">Janella</span>
+    <div class="service">
+        <h1>Other Services</h1>
+        <Price label="Hair & Make-up" price="150" />
+        <Price label="Hair & Make-up (Bride)" price="200" />
+        <Price label="Hair styling" price="60" />
+        <Price label="Eyebrow tattoo" price="200" />
+        <Price label="Eyeliner tattoo" price="150" />
     </div>
 </section>
 
 <style>
-    /* .hero {
-        background-image: url('/images/action-01.webp');
-        background-size: cover;
-        background-position: 0 -5rem;
-        z-index: -10;
-        height: 60rem;
-        width: 100%;
-        margin-top: -10rem;
-        margin-bottom: 5rem;
+    #service-grid {
+        box-sizing: border-box;
         position: relative;
-        display: flex;
-        align-items: center;
-        margin-bottom: 5rem;
+        margin: 4rem auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* border: 1px solid red; */
+        /* row-gap: 3rem; */
+        column-gap: 6rem;
+        row-gap: 4rem;
     }
-    .mask {
-        background-color: rgba(0, 0, 0, 0.5);
-        z-index: 0;
-        height: 60rem;
-        width: 100%;
-        margin-top: 0rem;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-    } */
-    .content {
-        /* background-color: antiquewhite; */
-        font-size: var(--fs-lg);
-        color: white;
-        /* border: 1px solid green; */
-        margin: 0 auto;
-        z-index: 10;
-        /* align-self: center; */
-    }
-    .content h1 {
-        font-family: var(--font-serif);
-        color: white;
-        font-weight: 400;
+    .service h1 {
+        color: var(--color-accent);
         font-size: var(--fs-3xl);
-        /* font-style: italic; */
-        letter-spacing: 1px;
-        margin-left: -0.25rem;
-        margin-bottom: 1rem;
-        line-height: var(--fs-4xl);
-    }
-    .content p {
-        /* border: 1px solid red; */
-        font-family: var(--font-sans);
-        /* width: 80%; */
-        max-width: 60rem;
-        justify-content: flex-start;
-        letter-spacing: 0.25px;
-        font-weight: 300;
-        line-height: var(--fs-2xl);
-        opacity: 0.75;
-        margin-bottom: 2.5rem;
-    }
-    #john {
-        background-image: url('/images/john-white.webp');
-        /* height: 35rem; */
-        background-size: cover;
-        background-position: 0 -2rem;
-        z-index: -10;
-        width: 100%;
-        /* margin-top: -10rem; */
-        /* margin-bottom: 5rem; */
-        position: relative;
-        /* display: flex;
-        align-items: center; */
-        padding: 4rem 0;
-        margin-bottom: 5rem;
-    }
-    #john p {
-        /* border: 1px solid red; */
-        font-family: var(--font-sans);
-        /* width: 80%; */
-        max-width: 40rem;
-        justify-content: flex-start;
-        letter-spacing: 0.25px;
-        font-weight: 300;
-        font-size: var(--fs-md);
-        letter-spacing: 0.75px;
-        line-height: var(--fs-2xl);
-        /* opacity: 0.6; */
-        color: rgba(255, 255, 255, 0.75);
-    }
-    #john p:not(:last-child) {
-        margin-bottom: 2.5rem;
-    }
-    span.emp {
-        color: white;
+        font-family: var(--font-notosans);
         font-weight: 700;
+        border-bottom: 2px solid var(--color-accent);
     }
 </style>

@@ -38,6 +38,16 @@
     background-image: url('/images/action-01-tundra02.webp');
     padding: 13rem 0 10rem;
 }
+#comingsoon {
+    background-image: url('/images/comingsoon.webp');
+    padding: 12rem 0 8rem;
+}
+#book {
+    background-image: url('/images/john-white02.webp');
+    height: 6rem;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+}
 /* #reviews {
     background-image: url('/images/action-01-tundra02.webp');
     padding: 13rem 0 10rem;

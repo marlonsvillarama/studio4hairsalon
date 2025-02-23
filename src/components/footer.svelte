@@ -8,13 +8,13 @@
             <span>Phone: (06) 353 5678</span><br/>
             <span>Mobile: (022) 188 5240</span><br/>
         </div>
-        <nav>
+        <!-- <nav>
             <a href="/services" class="link">Browse our services</a>
             <a href="/services" class="link">See our work</a>
             <a href="/reviews" class="link">Read our reviews</a>
             <a href="/contact" class="link">Contact us</a> <br/>
             <a href="/book" class="btn cta">BOOK NOW</a>
-        </nav>
+        </nav> -->
         <p class="big accent">Indulge in the ultimate salon experience.</p>
         <!-- <div>div 3</div> -->
     </div>

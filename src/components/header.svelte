@@ -1,12 +1,12 @@
 <header>
     <a href="/"><div class="logo">Studio 4</div></a>
 
-    <nav>
+    <!-- <nav>
         <a href="/services">Services</a>
         <a href="/gallery">Gallery</a>
-        <!-- <a href="/reviews">Reviews</a> -->
+        <a href="/reviews">Reviews</a>
         <a href="/contact">Contact</a>
-    </nav>
+    </nav> -->
 </header>
 
 <style>
@@ -17,7 +17,7 @@
         /* border-bottom: 1px solid red; */
         margin: 0 auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         padding: 0.5rem 5rem 0.5rem;
         /* width: 100%; */

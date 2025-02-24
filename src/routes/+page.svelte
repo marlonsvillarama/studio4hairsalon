@@ -7,7 +7,7 @@
     <div class="wrapper content">
         <h1>Almost there...</h1>
         <p>We are still building our website, but you may now book your appointments here!</p>
-        <a href="/book" class="btn cta">BOOK NOW</a>
+        <!-- <a href="/book" class="btn cta">BOOK NOW</a> -->
     </div>
 </div>
 
